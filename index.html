@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Atlas Watch Faces — Garmin Connect IQ watch face developer." />
+    <title>Atlas Watch Faces</title>
+    <style>
+      :root { color-scheme: dark; --ink:#f5f5f7; --muted:#a1a1a6; --line:#303033; --lime:#d7ff5f; --panel:#151516; }
+      * { box-sizing:border-box; } body { margin:0; background:#050505; color:var(--ink); font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+      .wrap { width:min(980px,calc(100% - 40px)); margin:auto; } header { min-height:420px; padding:24px 0 72px; background:radial-gradient(circle at 80% 30%,#333 0,#101011 25%,#050505 62%); }
+      nav { display:flex; justify-content:space-between; align-items:center; } .brand { font-weight:800; letter-spacing:.15em; font-size:14px; }.switch { display:flex; border:1px solid var(--line); border-radius:999px; overflow:hidden; }
+      .switch button { border:0; padding:8px 11px; background:transparent; color:var(--muted); cursor:pointer; font-size:12px; }.switch button.active { background:var(--ink); color:#000; }
+      .hero { padding-top:100px; }.eyebrow { margin:0 0 15px; color:var(--lime); font-size:11px; font-weight:700; letter-spacing:.14em; }.hero h1 { max-width:670px; margin:0; font-size:clamp(48px,9vw,92px); letter-spacing:-.075em; line-height:.9; }.hero p:last-child { max-width:460px; color:var(--muted); font-size:18px; line-height:1.5; }
+      main { padding:92px 0; } section { border-top:1px solid var(--line); padding:64px 0; } h2 { margin:0 0 32px; font-size:clamp(34px,5vw,56px); letter-spacing:-.06em; line-height:.95; } h3 { margin:0 0 12px; font-size:27px; letter-spacing:-.05em; } p { line-height:1.55; } .cards { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; }.card { min-height:300px; display:flex; flex-direction:column; justify-content:flex-end; padding:28px; background:var(--panel); }.card:first-child { background:#eeeeec; color:#0b0b0c; }.card p,.support-copy p,.about p { max-width:510px; color:var(--muted); }.card:first-child p { color:#4f4f51; }.link { display:inline-block; margin-top:12px; border:1px solid currentColor; border-radius:999px; padding:10px 15px; font-size:13px; color:inherit; text-decoration:none; }.support { display:grid; grid-template-columns:1fr 1fr; gap:72px; }.payments { border-top:1px solid var(--line); }.payment { display:flex; justify-content:space-between; align-items:center; min-height:74px; border-bottom:1px solid var(--line); color:var(--ink); text-decoration:none; font-size:21px; letter-spacing:-.04em; }.payment small { color:var(--muted); font-size:10px; letter-spacing:.1em; }.qr-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:16px; margin-top:32px; }.qr { background:#fff; color:#111; padding:16px; text-align:center; }.qr img { width:min(200px,100%); height:auto; display:block; margin:auto; }.qr p { margin:10px 0 0; font-size:13px; }.about { text-align:center; }.about p { margin:0 auto; } footer { border-top:1px solid var(--line); padding:25px 0; color:var(--muted); font-size:10px; letter-spacing:.12em; }
+      [data-lang] { display:none; } [data-lang].visible { display:block; } [data-lang="en"].visible.inline,[data-lang="zh"].visible.inline { display:inline; }
+      @media (max-width:650px) { header { min-height:380px; }.hero { padding-top:75px; }.cards,.support { grid-template-columns:1fr; }.support { gap:16px; }.qr-grid { gap:10px; } section { padding:50px 0; } }
+    </style>
+  </head>
+  <body>
+    <header><div class="wrap"><nav><span class="brand">ATLAS</span><div class="switch" aria-label="Language"><button class="active" data-set-lang="en">EN</button><button data-set-lang="zh">中文</button></div></nav><div class="hero"><p class="eyebrow">GARMIN CONNECT IQ DEVELOPER</p><h1>Atlas<br>Watch Faces.</h1><p data-lang="en" class="visible">Independent Garmin Connect IQ watch face developer.</p><p data-lang="zh">独立 Garmin Connect IQ 表盘开发者。</p></div></div></header>
+    <main class="wrap">
+      <section><p class="eyebrow visible" data-lang="en">THE COLLECTION</p><p class="eyebrow" data-lang="zh">表盘作品</p><h2 data-lang="en" class="visible">Designed for<br>the next mile.</h2><h2 data-lang="zh">为下一公里而设计。</h2><div class="cards"><article class="card"><h3>Atlas One</h3><p data-lang="en" class="visible">AMOLED watch face for Garmin Forerunner 965 and compatible devices.</p><p data-lang="zh">适用于 Garmin Forerunner 965 及兼容设备的 AMOLED 表盘。</p><a class="link visible" href="#" data-lang="en">View on Garmin Connect IQ ↗</a><a class="link" href="#" data-lang="zh">前往 Garmin Connect IQ ↗</a></article><article class="card"><p class="eyebrow">COMING SOON</p><h3>Atlas Rhythm</h3><p data-lang="en" class="visible">A new AMOLED watch face featuring dynamic data visualization and modern fitness style.</p><p data-lang="zh">一款采用动态数据可视化与现代运动风格的全新 AMOLED 表盘。</p></article></div></section>
+      <section class="support"><div class="support-copy"><p class="eyebrow visible" data-lang="en">KEEP ATLAS MOVING</p><p class="eyebrow" data-lang="zh">支持开发</p><h2 data-lang="en" class="visible">Support<br>Development.</h2><h2 data-lang="zh">支持 Atlas 开发。</h2><p data-lang="en" class="visible">Your support helps me continue creating new Garmin watch faces and improving existing apps.</p><p data-lang="zh">你的支持将帮助我持续开发新的 Garmin 表盘，并不断改进现有应用。</p></div><div><div class="payments"><span class="payment"><small>CHINA / 中国用户</small>WeChat Pay</span><span class="payment"><small>CHINA / 中国用户</small>支付宝</span><a class="payment" href="https://ko-fi.com/atlaswatch"><small>INTERNATIONAL / 国际用户</small>Ko-fi ↗</a></div><div class="qr-grid"><div class="qr"><img src="assets/wechat.png" alt="WeChat Pay QR code"><p>WeChat Pay / 微信支付</p></div><div class="qr"><img src="assets/alipay.png" alt="Alipay QR code"><p>Alipay / 支付宝</p></div></div></div></section>
+      <section class="about"><p class="eyebrow">ABOUT</p><h2 data-lang="en" class="visible">Built around the<br>data that moves you.</h2><h2 data-lang="zh">围绕驱动你的数据而打造。</h2><p data-lang="en" class="visible">Atlas Watch Faces focuses on creating clean, modern and data-rich watch faces for Garmin devices.</p><p data-lang="zh">Atlas Watch Faces 专注于为 Garmin 设备打造简洁、现代、信息丰富的表盘。</p></section>
+    </main><footer><div class="wrap">© <span id="year"></span> ATLAS WATCH FACES</div></footer>
+    <script>
+      const controls = document.querySelectorAll('[data-set-lang]');
+      const translations = document.querySelectorAll('[data-lang]');
+      function setLanguage(language) { document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en'; translations.forEach(item => item.classList.toggle('visible', item.dataset.lang === language)); controls.forEach(button => button.classList.toggle('active', button.dataset.setLang === language)); localStorage.setItem('atlas-language', language); }
+      controls.forEach(button => button.addEventListener('click', () => setLanguage(button.dataset.setLang)));
+      setLanguage(localStorage.getItem('atlas-language') || 'en');
+      document.querySelector('#year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
