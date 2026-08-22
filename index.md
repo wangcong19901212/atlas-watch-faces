@@ -29,10 +29,12 @@ AMOLED watch face for Garmin Forerunner 965 and compatible devices.
 
 **Supported devices**
 
-- Forerunner 265, 265S and 965
-- Venu 3 and 3S
+- Forerunner 165, 265, 265S, 570 (42 mm/47 mm), 965 and 970
+- Venu 3, 3S and Venu 4 (41 mm/45 mm)
+- vívoactive 6
 - epix (Gen 2)
 - epix Pro (42 mm, 47 mm and 51 mm)
+- fēnix 8 (43 mm, 47 mm and 51 mm), and fēnix E
 
 The face supports English and Simplified Chinese. Personal baselines need enough wearable data; “data insufficient” is expected during the first days, after an uninstall, or when relevant Garmin data is unavailable.
 

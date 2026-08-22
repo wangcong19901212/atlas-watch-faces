@@ -29,10 +29,12 @@ title: Atlas Watch Faces
 
 **支持的设备**
 
-- Forerunner 265、265S、965
-- Venu 3、Venu 3S
+- Forerunner 165、265、265S、570（42 mm/47 mm）、965、970
+- Venu 3、Venu 3S、Venu 4（41 mm/45 mm）
+- vívoactive 6
 - epix（Gen 2）
 - epix Pro（42 mm、47 mm、51 mm）
+- fēnix 8（43 mm、47 mm、51 mm）和 fēnix E
 
 表盘支持英语和简体中文。个人基线需要积累足够的佩戴数据；首次使用、卸载后重新安装，或 Garmin 相关数据暂不可用时，显示“数据不足”属于正常情况。
 

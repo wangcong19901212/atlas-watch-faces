@@ -11,10 +11,12 @@ Atlas Rhythm 是一款面向 Garmin 设备的个人节律表盘。它把你当�
 
 ## 支持的设备
 
-- Forerunner 265、265S、965
-- Venu 3、Venu 3S
+- Forerunner 165、265、265S、570（42 mm/47 mm）、965、970
+- Venu 3、Venu 3S、Venu 4（41 mm/45 mm）
+- vívoactive 6
 - epix（Gen 2）
 - epix Pro（42 mm、47 mm、51 mm）
+- fēnix 8（43 mm、47 mm、51 mm）和 fēnix E
 
 表盘支持英语和简体中文。需要使用能提供相关 Body Battery、压力与静息心率数据的兼容 Garmin 设备。
 

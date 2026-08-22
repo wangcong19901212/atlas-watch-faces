@@ -11,10 +11,12 @@ Atlas Rhythm is a personal-pattern watch face for Garmin devices. It compares yo
 
 ## Supported devices
 
-- Forerunner 265, 265S and 965
-- Venu 3 and Venu 3S
+- Forerunner 165, 265, 265S, 570 (42 mm/47 mm), 965 and 970
+- Venu 3, Venu 3S and Venu 4 (41 mm/45 mm)
+- vívoactive 6
 - epix (Gen 2)
 - epix Pro (42 mm, 47 mm and 51 mm)
+- fēnix 8 (43 mm, 47 mm and 51 mm), and fēnix E
 
 The watch face supports English and Simplified Chinese. It requires a compatible Garmin device that provides the relevant Body Battery, stress and resting-heart-rate data.
 
