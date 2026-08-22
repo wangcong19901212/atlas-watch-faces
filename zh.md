@@ -23,9 +23,18 @@ title: Atlas Watch Faces
 
 ### Atlas Rhythm
 
-**即将上线**
+**现已发布。** 面向 Garmin 设备的个人节律表盘：通过能量、压力、夜间恢复与静息心率四项指标，对比你的个人历史常态，而不是套用通用人群评分。
 
-一款采用动态数据可视化与现代运动风格的全新 AMOLED 表盘。
+[查看 Atlas Rhythm 中文说明](atlas-rhythm-zh.html) · [English guide](atlas-rhythm.html)
+
+**支持的设备**
+
+- Forerunner 265、265S、965
+- Venu 3、Venu 3S
+- epix（Gen 2）
+- epix Pro（42 mm、47 mm、51 mm）
+
+表盘支持英语和简体中文。个人基线需要积累足够的佩戴数据；首次使用、卸载后重新安装，或 Garmin 相关数据暂不可用时，显示“数据不足”属于正常情况。
 
 ---
 

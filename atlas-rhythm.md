@@ -9,19 +9,28 @@ title: Atlas Rhythm Guide
 
 Atlas Rhythm is a personal-pattern watch face for Garmin devices. It compares your current rhythm with your own historical baseline instead of producing a generic health score.
 
+## Supported devices
+
+- Forerunner 265, 265S and 965
+- Venu 3 and Venu 3S
+- epix (Gen 2)
+- epix Pro (42 mm, 47 mm and 51 mm)
+
+The watch face supports English and Simplified Chinese. It requires a compatible Garmin device that provides the relevant Body Battery, stress and resting-heart-rate data.
+
 ## Four personal metrics
 
 ### Energy
 
-Shows how the recent Body Battery trend compares with your usual trend at the same time of day. The evidence line shows the configured window's current average change per hour and your usual value.
+Shows how the recent Body Battery trend compares with your usual trend at the same time of day. The evidence line shows the configured window's current average change per hour and your usual value. A positive deviation means a more favorable energy trend than usual — less depletion or more recovery.
 
 ### Stress
 
-Shows today's time-weighted Garmin stress average compared with your usual value at the same point in the day. The evidence line shows `today|usual·coverage`; coverage helps identify incomplete sensor data.
+Shows today's time-weighted Garmin stress average compared with your usual value at the same point in the day. The evidence line shows `today|usual·coverage`; coverage helps identify incomplete sensor data. A positive deviation means today's stress is lower than your usual level.
 
 ### Recovery
 
-Uses a fixed daily snapshot from the configured night window. It compares your overnight recovery trend with your own usual overnight trend. Sleep-plan timing only defines this statistical window; it does not change the watch-face design.
+Uses a fixed daily snapshot from the configured night window. It compares your overnight recovery trend with your own usual overnight trend. A positive deviation means recovery was faster than usual; a negative deviation means it was slower. Sleep-plan timing only defines this statistical window; it does not change the watch-face design.
 
 ### RHR
 
@@ -35,9 +44,9 @@ The baseline uses a median, rather than a simple average, so an unusually hard d
 
 The four cards are not medical measurements and should not be used for diagnosis or treatment decisions.
 
-## Overall status
+## ATLAS RHYTHM
 
-The center indicator is an unweighted summary of the four cards, not a 0–100 score. It reports how many usable indicators are currently in their ordinary range and highlights an available limiting factor when one needs attention. If enough baseline or sensor coverage is unavailable, it shows that data is insufficient.
+The central **ATLAS RHYTHM** indicator is an unweighted summary of the four cards, not a 0–100 score. It reports how many usable indicators are currently in their ordinary range and highlights an available limiting factor when one needs attention. If enough baseline or sensor coverage is unavailable, it shows that data is insufficient.
 
 ## Reading the cards
 
@@ -46,7 +55,18 @@ The center indicator is an unweighted summary of the four cards, not a 0–100 s
 - The bottom line is the evidence used for the calculation.
 - `C` on the Stress card is today's usable coverage.
 
-The signs follow each metric's meaning. For Energy, a positive deviation is a more favorable trend than usual. For Stress, a positive deviation means stress is higher than usual. For RHR, a positive deviation means resting heart rate is higher than usual.
+The signs follow each metric's meaning. For Energy, Stress and Recovery, a positive deviation is more favorable than usual: for Stress, it means today's stress is lower; for Recovery, it means overnight recovery was faster. For RHR, a positive deviation means resting heart rate is higher than usual.
+
+## First use and “data insufficient”
+
+Atlas Rhythm needs both Garmin source data and enough of your own history before it can make a personal comparison. It is normal to see **data insufficient** when:
+
+- you have just installed the watch face;
+- the relevant Garmin field is unavailable or has incomplete coverage;
+- you have recently returned from another watch face and there is a local snapshot gap; or
+- the required historical baseline has not yet accumulated.
+
+Keep Atlas Rhythm active and wear the watch normally. Cards become available independently as each metric obtains enough usable data; they do not all appear at once.
 
 ## Settings
 
@@ -64,6 +84,24 @@ Available options include:
 Historical snapshots and settings are stored locally on the watch. Installing a normal update of the same Atlas Rhythm app preserves them. Uninstalling the app removes its local data.
 
 When another watch face is active, Atlas Rhythm does not continue writing its own periodic snapshots. On return, it uses retained local history and can refill recent Garmin history when appropriate; a gap may still require more wear time before every personal baseline is available again.
+
+## Privacy
+
+Atlas Rhythm calculates its personal comparisons from data available on your watch and stores its compact history locally on the watch. It does not require you to create an Atlas account.
+
+## Frequently asked questions
+
+### Is ATLAS RHYTHM a medical or readiness score?
+
+No. It is an unweighted view of four personal deviations. It is intended to make patterns easier to notice, not to diagnose a condition, predict performance, or replace professional advice.
+
+### Why can two cards be available while another is not?
+
+Each card has different source-data and baseline requirements. For example, RHR relies on Garmin's 7-day average, while Recovery uses a nightly snapshot.
+
+### Does changing the sleep schedule redesign the watch face?
+
+No. The night setting only defines the Recovery statistical window.
 
 ## Requirements and limitations
 

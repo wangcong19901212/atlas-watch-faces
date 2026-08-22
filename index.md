@@ -23,9 +23,18 @@ AMOLED watch face for Garmin Forerunner 965 and compatible devices.
 
 ### Atlas Rhythm
 
-**Coming soon**
+**Available now.** A personal rhythm watch face for Garmin devices. It compares the current pattern with your own historical baseline across Energy, Stress, Recovery and RHR — not with a generic population score.
 
-A new AMOLED watch face featuring dynamic data visualization and modern fitness style.
+[Read the Atlas Rhythm guide](atlas-rhythm.html) · [阅读中文说明](atlas-rhythm-zh.html)
+
+**Supported devices**
+
+- Forerunner 265, 265S and 965
+- Venu 3 and 3S
+- epix (Gen 2)
+- epix Pro (42 mm, 47 mm and 51 mm)
+
+The face supports English and Simplified Chinese. Personal baselines need enough wearable data; “data insufficient” is expected during the first days, after an uninstall, or when relevant Garmin data is unavailable.
 
 ---
 
